@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBCA83D71BE7E6C600A20377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83D61BE7E6C600A20377 /* AppDelegate.swift */; };
+		BBCA83D91BE7E6C600A20377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83D81BE7E6C600A20377 /* ViewController.swift */; };
+		BBCA83DC1BE7E6C600A20377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCA83DA1BE7E6C600A20377 /* Main.storyboard */; };
+		BBCA83DF1BE7E6C600A20377 /* BeerLogger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83DD1BE7E6C600A20377 /* BeerLogger.xcdatamodeld */; };
+		BBCA83E11BE7E6C600A20377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCA83E01BE7E6C600A20377 /* Assets.xcassets */; };
+		BBCA83E41BE7E6C600A20377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCA83E21BE7E6C600A20377 /* LaunchScreen.storyboard */; };
+		BBCA83EF1BE7E6C600A20377 /* BeerLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83EE1BE7E6C600A20377 /* BeerLoggerTests.swift */; };
+		BBCA83FA1BE7E6C600A20377 /* BeerLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83F91BE7E6C600A20377 /* BeerLoggerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBCA83EB1BE7E6C600A20377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBCA83CB1BE7E6C500A20377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBCA83D21BE7E6C500A20377;
+			remoteInfo = BeerLogger;
+		};
+		BBCA83F61BE7E6C600A20377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBCA83CB1BE7E6C500A20377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBCA83D21BE7E6C500A20377;
+			remoteInfo = BeerLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBCA83D31BE7E6C500A20377 /* BeerLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCA83D61BE7E6C600A20377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBCA83D81BE7E6C600A20377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBCA83DB1BE7E6C600A20377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBCA83DE1BE7E6C600A20377 /* BeerLogger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeerLogger.xcdatamodel; sourceTree = "<group>"; };
+		BBCA83E01BE7E6C600A20377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBCA83E31BE7E6C600A20377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBCA83E51BE7E6C600A20377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCA83EA1BE7E6C600A20377 /* BeerLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCA83EE1BE7E6C600A20377 /* BeerLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerLoggerTests.swift; sourceTree = "<group>"; };
+		BBCA83F01BE7E6C600A20377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCA83F51BE7E6C600A20377 /* BeerLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCA83F91BE7E6C600A20377 /* BeerLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerLoggerUITests.swift; sourceTree = "<group>"; };
+		BBCA83FB1BE7E6C600A20377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBCA83D01BE7E6C500A20377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCA83E71BE7E6C600A20377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCA83F21BE7E6C600A20377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBCA83CA1BE7E6C500A20377 = {
+			isa = PBXGroup;
+			children = (
+				BBCA83D51BE7E6C500A20377 /* BeerLogger */,
+				BBCA83ED1BE7E6C600A20377 /* BeerLoggerTests */,
+				BBCA83F81BE7E6C600A20377 /* BeerLoggerUITests */,
+				BBCA83D41BE7E6C500A20377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBCA83D41BE7E6C500A20377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA83D31BE7E6C500A20377 /* BeerLogger.app */,
+				BBCA83EA1BE7E6C600A20377 /* BeerLoggerTests.xctest */,
+				BBCA83F51BE7E6C600A20377 /* BeerLoggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBCA83D51BE7E6C500A20377 /* BeerLogger */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA83D61BE7E6C600A20377 /* AppDelegate.swift */,
+				BBCA83D81BE7E6C600A20377 /* ViewController.swift */,
+				BBCA83DA1BE7E6C600A20377 /* Main.storyboard */,
+				BBCA83E01BE7E6C600A20377 /* Assets.xcassets */,
+				BBCA83E21BE7E6C600A20377 /* LaunchScreen.storyboard */,
+				BBCA83E51BE7E6C600A20377 /* Info.plist */,
+				BBCA83DD1BE7E6C600A20377 /* BeerLogger.xcdatamodeld */,
+			);
+			path = BeerLogger;
+			sourceTree = "<group>";
+		};
+		BBCA83ED1BE7E6C600A20377 /* BeerLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA83EE1BE7E6C600A20377 /* BeerLoggerTests.swift */,
+				BBCA83F01BE7E6C600A20377 /* Info.plist */,
+			);
+			path = BeerLoggerTests;
+			sourceTree = "<group>";
+		};
+		BBCA83F81BE7E6C600A20377 /* BeerLoggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA83F91BE7E6C600A20377 /* BeerLoggerUITests.swift */,
+				BBCA83FB1BE7E6C600A20377 /* Info.plist */,
+			);
+			path = BeerLoggerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBCA83D21BE7E6C500A20377 /* BeerLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBCA83FE1BE7E6C600A20377 /* Build configuration list for PBXNativeTarget "BeerLogger" */;
+			buildPhases = (
+				BBCA83CF1BE7E6C500A20377 /* Sources */,
+				BBCA83D01BE7E6C500A20377 /* Frameworks */,
+				BBCA83D11BE7E6C500A20377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeerLogger;
+			productName = BeerLogger;
+			productReference = BBCA83D31BE7E6C500A20377 /* BeerLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBCA83E91BE7E6C600A20377 /* BeerLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBCA84011BE7E6C600A20377 /* Build configuration list for PBXNativeTarget "BeerLoggerTests" */;
+			buildPhases = (
+				BBCA83E61BE7E6C600A20377 /* Sources */,
+				BBCA83E71BE7E6C600A20377 /* Frameworks */,
+				BBCA83E81BE7E6C600A20377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBCA83EC1BE7E6C600A20377 /* PBXTargetDependency */,
+			);
+			name = BeerLoggerTests;
+			productName = BeerLoggerTests;
+			productReference = BBCA83EA1BE7E6C600A20377 /* BeerLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBCA83F41BE7E6C600A20377 /* BeerLoggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBCA84041BE7E6C600A20377 /* Build configuration list for PBXNativeTarget "BeerLoggerUITests" */;
+			buildPhases = (
+				BBCA83F11BE7E6C600A20377 /* Sources */,
+				BBCA83F21BE7E6C600A20377 /* Frameworks */,
+				BBCA83F31BE7E6C600A20377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBCA83F71BE7E6C600A20377 /* PBXTargetDependency */,
+			);
+			name = BeerLoggerUITests;
+			productName = BeerLoggerUITests;
+			productReference = BBCA83F51BE7E6C600A20377 /* BeerLoggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBCA83CB1BE7E6C500A20377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Rock Valley college";
+				TargetAttributes = {
+					BBCA83D21BE7E6C500A20377 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BBCA83E91BE7E6C600A20377 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BBCA83D21BE7E6C500A20377;
+					};
+					BBCA83F41BE7E6C600A20377 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BBCA83D21BE7E6C500A20377;
+					};
+				};
+			};
+			buildConfigurationList = BBCA83CE1BE7E6C500A20377 /* Build configuration list for PBXProject "BeerLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBCA83CA1BE7E6C500A20377;
+			productRefGroup = BBCA83D41BE7E6C500A20377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBCA83D21BE7E6C500A20377 /* BeerLogger */,
+				BBCA83E91BE7E6C600A20377 /* BeerLoggerTests */,
+				BBCA83F41BE7E6C600A20377 /* BeerLoggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBCA83D11BE7E6C500A20377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCA83E41BE7E6C600A20377 /* LaunchScreen.storyboard in Resources */,
+				BBCA83E11BE7E6C600A20377 /* Assets.xcassets in Resources */,
+				BBCA83DC1BE7E6C600A20377 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCA83E81BE7E6C600A20377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCA83F31BE7E6C600A20377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBCA83CF1BE7E6C500A20377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCA83D91BE7E6C600A20377 /* ViewController.swift in Sources */,
+				BBCA83DF1BE7E6C600A20377 /* BeerLogger.xcdatamodeld in Sources */,
+				BBCA83D71BE7E6C600A20377 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCA83E61BE7E6C600A20377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCA83EF1BE7E6C600A20377 /* BeerLoggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCA83F11BE7E6C600A20377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCA83FA1BE7E6C600A20377 /* BeerLoggerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBCA83EC1BE7E6C600A20377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBCA83D21BE7E6C500A20377 /* BeerLogger */;
+			targetProxy = BBCA83EB1BE7E6C600A20377 /* PBXContainerItemProxy */;
+		};
+		BBCA83F71BE7E6C600A20377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBCA83D21BE7E6C500A20377 /* BeerLogger */;
+			targetProxy = BBCA83F61BE7E6C600A20377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBCA83DA1BE7E6C600A20377 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBCA83DB1BE7E6C600A20377 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBCA83E21BE7E6C600A20377 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBCA83E31BE7E6C600A20377 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBCA83FC1BE7E6C600A20377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBCA83FD1BE7E6C600A20377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBCA83FF1BE7E6C600A20377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeerLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.BeerLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBCA84001BE7E6C600A20377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeerLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.BeerLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBCA84021BE7E6C600A20377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeerLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.BeerLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeerLogger.app/BeerLogger";
+			};
+			name = Debug;
+		};
+		BBCA84031BE7E6C600A20377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeerLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.BeerLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeerLogger.app/BeerLogger";
+			};
+			name = Release;
+		};
+		BBCA84051BE7E6C600A20377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeerLoggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.BeerLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeerLogger;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BBCA84061BE7E6C600A20377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeerLoggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.BeerLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeerLogger;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBCA83CE1BE7E6C500A20377 /* Build configuration list for PBXProject "BeerLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCA83FC1BE7E6C600A20377 /* Debug */,
+				BBCA83FD1BE7E6C600A20377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBCA83FE1BE7E6C600A20377 /* Build configuration list for PBXNativeTarget "BeerLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCA83FF1BE7E6C600A20377 /* Debug */,
+				BBCA84001BE7E6C600A20377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBCA84011BE7E6C600A20377 /* Build configuration list for PBXNativeTarget "BeerLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCA84021BE7E6C600A20377 /* Debug */,
+				BBCA84031BE7E6C600A20377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBCA84041BE7E6C600A20377 /* Build configuration list for PBXNativeTarget "BeerLoggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCA84051BE7E6C600A20377 /* Debug */,
+				BBCA84061BE7E6C600A20377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BBCA83DD1BE7E6C600A20377 /* BeerLogger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BBCA83DE1BE7E6C600A20377 /* BeerLogger.xcdatamodel */,
+			);
+			currentVersion = BBCA83DE1BE7E6C600A20377 /* BeerLogger.xcdatamodel */;
+			path = BeerLogger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BBCA83CB1BE7E6C500A20377 /* Project object */;
+}
