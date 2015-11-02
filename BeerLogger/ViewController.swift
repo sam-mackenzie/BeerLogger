@@ -9,6 +9,42 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    
+    let defaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+    
+    defaults.setObject(nil, forKey: "favbeer")
+
+    
+    defaults.synchronize()
+    
+
+
+//They can choose between which beer they want to display on the home screen
+var selectedcolor:String!
+let pickerBeer = [fav.beer]
+@IBAction func btnLoad(sender: UIButton) {
+    let defaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+    
+ 
+    
+    
+    if let beerIsNotNill = defaults.objectForKey("favbeer") as? String {
+        var favoriteColorSelected = defaults.objectForKey("favbeer") as! String
+        let SelectedColor:Int = (pickerBeer).indexOf(favoriteColorSelected)!
+        
+        if (favoriteColorSelected==fav.beer)
+        {
+            self.view.backgroundBeer = UIbeer.favBeer()
+        }
+
+        
+        
+        
+        MyBeer.selectRow(SelectedBeer,inComponent: 0, animated: true)
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,8 +54,11 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
 
+    
+    
 
 }
 
