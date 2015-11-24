@@ -15,6 +15,7 @@
 		BBCA83E41BE7E6C600A20377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCA83E21BE7E6C600A20377 /* LaunchScreen.storyboard */; };
 		BBCA83EF1BE7E6C600A20377 /* BeerLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83EE1BE7E6C600A20377 /* BeerLoggerTests.swift */; };
 		BBCA83FA1BE7E6C600A20377 /* BeerLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83F91BE7E6C600A20377 /* BeerLoggerUITests.swift */; };
+		BBF577B81BF2F60A0083BB09 /* Beer-Logger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF577B71BF2F60A0083BB09 /* Beer-Logger.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BBCA83F51BE7E6C600A20377 /* BeerLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCA83F91BE7E6C600A20377 /* BeerLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerLoggerUITests.swift; sourceTree = "<group>"; };
 		BBCA83FB1BE7E6C600A20377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF577B71BF2F60A0083BB09 /* Beer-Logger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Beer-Logger.jpg"; path = "../../../Downloads/Beer-Logger.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		BBCA83D51BE7E6C500A20377 /* BeerLogger */ = {
 			isa = PBXGroup;
 			children = (
+				BBF577B71BF2F60A0083BB09 /* Beer-Logger.jpg */,
 				BBCA83D61BE7E6C600A20377 /* AppDelegate.swift */,
 				BBCA83D81BE7E6C600A20377 /* ViewController.swift */,
 				BBCA83DA1BE7E6C600A20377 /* Main.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBCA83E41BE7E6C600A20377 /* LaunchScreen.storyboard in Resources */,
+				BBF577B81BF2F60A0083BB09 /* Beer-Logger.jpg in Resources */,
 				BBCA83E11BE7E6C600A20377 /* Assets.xcassets in Resources */,
 				BBCA83DC1BE7E6C600A20377 /* Main.storyboard in Resources */,
 			);
@@ -488,6 +492,7 @@
 				BBCA84001BE7E6C600A20377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBCA84011BE7E6C600A20377 /* Build configuration list for PBXNativeTarget "BeerLoggerTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				BBCA84031BE7E6C600A20377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBCA84041BE7E6C600A20377 /* Build configuration list for PBXNativeTarget "BeerLoggerUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				BBCA84061BE7E6C600A20377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
