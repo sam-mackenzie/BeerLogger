@@ -15,7 +15,21 @@
 		BBCA83E41BE7E6C600A20377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCA83E21BE7E6C600A20377 /* LaunchScreen.storyboard */; };
 		BBCA83EF1BE7E6C600A20377 /* BeerLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83EE1BE7E6C600A20377 /* BeerLoggerTests.swift */; };
 		BBCA83FA1BE7E6C600A20377 /* BeerLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83F91BE7E6C600A20377 /* BeerLoggerUITests.swift */; };
-		BBF577B81BF2F60A0083BB09 /* Beer-Logger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBF577B71BF2F60A0083BB09 /* Beer-Logger.jpg */; };
+		F2916D671C0D3A3700078531 /* Beer-Logger .png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D661C0D3A3700078531 /* Beer-Logger .png */; };
+		F2916D711C0D3B6100078531 /* Beer-Logger29.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D681C0D3B6100078531 /* Beer-Logger29.png */; };
+		F2916D721C0D3B6100078531 /* Beer-Logger40.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D691C0D3B6100078531 /* Beer-Logger40.png */; };
+		F2916D731C0D3B6100078531 /* Beer-Logger58.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D6A1C0D3B6100078531 /* Beer-Logger58.png */; };
+		F2916D741C0D3B6100078531 /* Beer-Logger76.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D6B1C0D3B6100078531 /* Beer-Logger76.png */; };
+		F2916D751C0D3B6100078531 /* Beer-Logger80.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D6C1C0D3B6100078531 /* Beer-Logger80.png */; };
+		F2916D761C0D3B6100078531 /* Beer-Logger87.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D6D1C0D3B6100078531 /* Beer-Logger87.png */; };
+		F2916D771C0D3B6100078531 /* Beer-Logger120.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D6E1C0D3B6100078531 /* Beer-Logger120.png */; };
+		F2916D781C0D3B6100078531 /* Beer-Logger152.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D6F1C0D3B6100078531 /* Beer-Logger152.png */; };
+		F2916D791C0D3B6100078531 /* Beer-Logger180.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D701C0D3B6100078531 /* Beer-Logger180.png */; };
+		F2916D7B1C0D3E7C00078531 /* beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2916D7A1C0D3E7C00078531 /* beer.swift */; };
+		F2916D7D1C0D3EBD00078531 /* Beer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2916D7C1C0D3EBD00078531 /* Beer+CoreDataProperties.swift */; };
+		F2916D811C0D522C00078531 /* MyBeersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2916D801C0D522C00078531 /* MyBeersViewController.swift */; };
+		F2916D831C0D53C500078531 /* AddABeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2916D821C0D53C500078531 /* AddABeerViewController.swift */; };
+		F2916D851C0D542200078531 /* BeerMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2916D841C0D542200078531 /* BeerMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +64,21 @@
 		BBCA83F51BE7E6C600A20377 /* BeerLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCA83F91BE7E6C600A20377 /* BeerLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerLoggerUITests.swift; sourceTree = "<group>"; };
 		BBCA83FB1BE7E6C600A20377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBF577B71BF2F60A0083BB09 /* Beer-Logger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Beer-Logger.jpg"; path = "../../../Downloads/Beer-Logger.jpg"; sourceTree = "<group>"; };
+		F2916D661C0D3A3700078531 /* Beer-Logger .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger .png"; sourceTree = "<group>"; };
+		F2916D681C0D3B6100078531 /* Beer-Logger29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger29.png"; sourceTree = "<group>"; };
+		F2916D691C0D3B6100078531 /* Beer-Logger40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger40.png"; sourceTree = "<group>"; };
+		F2916D6A1C0D3B6100078531 /* Beer-Logger58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger58.png"; sourceTree = "<group>"; };
+		F2916D6B1C0D3B6100078531 /* Beer-Logger76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger76.png"; sourceTree = "<group>"; };
+		F2916D6C1C0D3B6100078531 /* Beer-Logger80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger80.png"; sourceTree = "<group>"; };
+		F2916D6D1C0D3B6100078531 /* Beer-Logger87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger87.png"; sourceTree = "<group>"; };
+		F2916D6E1C0D3B6100078531 /* Beer-Logger120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger120.png"; sourceTree = "<group>"; };
+		F2916D6F1C0D3B6100078531 /* Beer-Logger152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger152.png"; sourceTree = "<group>"; };
+		F2916D701C0D3B6100078531 /* Beer-Logger180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger180.png"; sourceTree = "<group>"; };
+		F2916D7A1C0D3E7C00078531 /* beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beer.swift; sourceTree = "<group>"; };
+		F2916D7C1C0D3EBD00078531 /* Beer+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Beer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2916D801C0D522C00078531 /* MyBeersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBeersViewController.swift; sourceTree = "<group>"; };
+		F2916D821C0D53C500078531 /* AddABeerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddABeerViewController.swift; sourceTree = "<group>"; };
+		F2916D841C0D542200078531 /* BeerMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +109,11 @@
 		BBCA83CA1BE7E6C500A20377 = {
 			isa = PBXGroup;
 			children = (
+				F2916D841C0D542200078531 /* BeerMapViewController.swift */,
+				F2916D821C0D53C500078531 /* AddABeerViewController.swift */,
+				F2916D801C0D522C00078531 /* MyBeersViewController.swift */,
+				F2916D7C1C0D3EBD00078531 /* Beer+CoreDataProperties.swift */,
+				F2916D7A1C0D3E7C00078531 /* beer.swift */,
 				BBCA83D51BE7E6C500A20377 /* BeerLogger */,
 				BBCA83ED1BE7E6C600A20377 /* BeerLoggerTests */,
 				BBCA83F81BE7E6C600A20377 /* BeerLoggerUITests */,
@@ -101,7 +134,16 @@
 		BBCA83D51BE7E6C500A20377 /* BeerLogger */ = {
 			isa = PBXGroup;
 			children = (
-				BBF577B71BF2F60A0083BB09 /* Beer-Logger.jpg */,
+				F2916D681C0D3B6100078531 /* Beer-Logger29.png */,
+				F2916D691C0D3B6100078531 /* Beer-Logger40.png */,
+				F2916D6A1C0D3B6100078531 /* Beer-Logger58.png */,
+				F2916D6B1C0D3B6100078531 /* Beer-Logger76.png */,
+				F2916D6C1C0D3B6100078531 /* Beer-Logger80.png */,
+				F2916D6D1C0D3B6100078531 /* Beer-Logger87.png */,
+				F2916D6E1C0D3B6100078531 /* Beer-Logger120.png */,
+				F2916D6F1C0D3B6100078531 /* Beer-Logger152.png */,
+				F2916D701C0D3B6100078531 /* Beer-Logger180.png */,
+				F2916D661C0D3A3700078531 /* Beer-Logger .png */,
 				BBCA83D61BE7E6C600A20377 /* AppDelegate.swift */,
 				BBCA83D81BE7E6C600A20377 /* ViewController.swift */,
 				BBCA83DA1BE7E6C600A20377 /* Main.storyboard */,
@@ -235,10 +277,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2916D781C0D3B6100078531 /* Beer-Logger152.png in Resources */,
+				F2916D761C0D3B6100078531 /* Beer-Logger87.png in Resources */,
+				F2916D731C0D3B6100078531 /* Beer-Logger58.png in Resources */,
 				BBCA83E41BE7E6C600A20377 /* LaunchScreen.storyboard in Resources */,
-				BBF577B81BF2F60A0083BB09 /* Beer-Logger.jpg in Resources */,
+				F2916D711C0D3B6100078531 /* Beer-Logger29.png in Resources */,
+				F2916D751C0D3B6100078531 /* Beer-Logger80.png in Resources */,
+				F2916D791C0D3B6100078531 /* Beer-Logger180.png in Resources */,
 				BBCA83E11BE7E6C600A20377 /* Assets.xcassets in Resources */,
+				F2916D741C0D3B6100078531 /* Beer-Logger76.png in Resources */,
+				F2916D771C0D3B6100078531 /* Beer-Logger120.png in Resources */,
+				F2916D721C0D3B6100078531 /* Beer-Logger40.png in Resources */,
 				BBCA83DC1BE7E6C600A20377 /* Main.storyboard in Resources */,
+				F2916D671C0D3A3700078531 /* Beer-Logger .png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2916D811C0D522C00078531 /* MyBeersViewController.swift in Sources */,
+				F2916D851C0D542200078531 /* BeerMapViewController.swift in Sources */,
+				F2916D831C0D53C500078531 /* AddABeerViewController.swift in Sources */,
+				F2916D7D1C0D3EBD00078531 /* Beer+CoreDataProperties.swift in Sources */,
 				BBCA83D91BE7E6C600A20377 /* ViewController.swift in Sources */,
 				BBCA83DF1BE7E6C600A20377 /* BeerLogger.xcdatamodeld in Sources */,
 				BBCA83D71BE7E6C600A20377 /* AppDelegate.swift in Sources */,
+				F2916D7B1C0D3E7C00078531 /* beer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
