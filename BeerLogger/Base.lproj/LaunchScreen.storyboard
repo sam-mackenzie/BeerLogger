@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,18 +18,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Try a beer, log it here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNH-Ng-tds">
-                                <rect key="frame" x="221" y="510" width="170" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Beer-Logger .png" translatesAutoresizingMaskIntoConstraints="NO" id="hXm-hg-0MW">
+                                <rect key="frame" x="90" y="20" width="438" height="489"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try a beer, log it here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNH-Ng-tds">
+                                <rect key="frame" x="224" y="510" width="170" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3Up-5e-aLS"/>
+                                    <constraint firstAttribute="width" constant="170" id="J5S-DM-1UV"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Beer-Logger .png" translatesAutoresizingMaskIntoConstraints="NO" id="hXm-hg-0MW">
-                                <rect key="frame" x="90" y="20" width="438" height="489"/>
-                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hXm-hg-0MW" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="8sX-k0-t4k"/>
+                            <constraint firstItem="hXm-hg-0MW" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="70" id="ES5-Dk-lu5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hXm-hg-0MW" secondAttribute="trailing" constant="52" id="Iiu-K9-dS2"/>
+                            <constraint firstItem="gNH-Ng-tds" firstAttribute="top" secondItem="hXm-hg-0MW" secondAttribute="bottom" constant="1" id="l4k-dH-CVp"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="gNH-Ng-tds" secondAttribute="bottom" constant="69" id="lKk-er-D90"/>
+                            <constraint firstItem="gNH-Ng-tds" firstAttribute="centerX" secondItem="hXm-hg-0MW" secondAttribute="centerX" id="xq1-nu-1lV"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>

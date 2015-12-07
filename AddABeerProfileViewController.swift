@@ -1,25 +1,14 @@
 //
-//  MyBeersViewController.swift
+//  AddABeerProfileViewController.swift
 //  BeerLogger
 //
-//  Created by Samuel W. Mackenzie on 11/30/15.
+//  Created by RVC on 12/5/15.
 //  Copyright © 2015 Rock Valley college. All rights reserved.
 //
 
 import UIKit
 
-class MyBeersViewController: UIViewController {
-    
-    
-    
-    
-    @IBAction func btnBack(sender: UIBarButtonItem) {
-        self.dismissViewControllerAnimated(false, completion: nil)        
-    }
-    
-    
-    
-    
+class AddABeerProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

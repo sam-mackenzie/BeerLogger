@@ -12,18 +12,21 @@ import CoreData
 
 class ViewController: UIViewController, UIGestureRecognizerDelegate, UIImagePickerControllerDelegate,
     UINavigationControllerDelegate {
+    
     var imagescale:CGFloat!
     var savedimage:UIImage!
     var imgselected:Int = 0
     
-
-    var showmessage:Bool=true
     
-    var showmessage2:Bool=false
+  
+   // var showmessage:Bool=true
+    
+    //var showmessage2:Bool=false
     
     var newImageData:NSData?
     var myImageFromData:NSData?
     //1) Add ManagedObject Data Context
+    
     let managedObjectContext =
     (UIApplication.sharedApplication().delegate
         as! AppDelegate).managedObjectContext
@@ -35,7 +38,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, UIImagePick
     
     @IBAction func btnBack(sender: AnyObject) {
         //3) Dismiss ViewController
-        self.dismissViewControllerAnimated(false, completion: nil)
+    self.dismissViewControllerAnimated(false, completion: nil)
         
     }
     
@@ -44,6 +47,8 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, UIImagePick
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //set initial coordinates for map
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,7 +56,8 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, UIImagePick
         // Dispose of any resources that can be recreated.
         
     }
-
+    
+   
     
     
     

@@ -15,6 +15,7 @@
 		BBCA83E41BE7E6C600A20377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCA83E21BE7E6C600A20377 /* LaunchScreen.storyboard */; };
 		BBCA83EF1BE7E6C600A20377 /* BeerLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83EE1BE7E6C600A20377 /* BeerLoggerTests.swift */; };
 		BBCA83FA1BE7E6C600A20377 /* BeerLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83F91BE7E6C600A20377 /* BeerLoggerUITests.swift */; };
+		BBCC4CF81C13C664007B9BDD /* AddABeerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC4CF71C13C664007B9BDD /* AddABeerProfileViewController.swift */; };
 		F2916D671C0D3A3700078531 /* Beer-Logger .png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D661C0D3A3700078531 /* Beer-Logger .png */; };
 		F2916D711C0D3B6100078531 /* Beer-Logger29.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D681C0D3B6100078531 /* Beer-Logger29.png */; };
 		F2916D721C0D3B6100078531 /* Beer-Logger40.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D691C0D3B6100078531 /* Beer-Logger40.png */; };
@@ -64,6 +65,7 @@
 		BBCA83F51BE7E6C600A20377 /* BeerLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCA83F91BE7E6C600A20377 /* BeerLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerLoggerUITests.swift; sourceTree = "<group>"; };
 		BBCA83FB1BE7E6C600A20377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCC4CF71C13C664007B9BDD /* AddABeerProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddABeerProfileViewController.swift; sourceTree = "<group>"; };
 		F2916D661C0D3A3700078531 /* Beer-Logger .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger .png"; sourceTree = "<group>"; };
 		F2916D681C0D3B6100078531 /* Beer-Logger29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger29.png"; sourceTree = "<group>"; };
 		F2916D691C0D3B6100078531 /* Beer-Logger40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger40.png"; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		BBCA83CA1BE7E6C500A20377 = {
 			isa = PBXGroup;
 			children = (
+				BBCC4CF71C13C664007B9BDD /* AddABeerProfileViewController.swift */,
 				F2916D841C0D542200078531 /* BeerMapViewController.swift */,
 				F2916D821C0D53C500078531 /* AddABeerViewController.swift */,
 				F2916D801C0D522C00078531 /* MyBeersViewController.swift */,
@@ -241,6 +244,7 @@
 				TargetAttributes = {
 					BBCA83D21BE7E6C500A20377 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = RC885JKSCY;
 					};
 					BBCA83E91BE7E6C600A20377 = {
 						CreatedOnToolsVersion = 7.1;
@@ -315,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2916D811C0D522C00078531 /* MyBeersViewController.swift in Sources */,
+				BBCC4CF81C13C664007B9BDD /* AddABeerProfileViewController.swift in Sources */,
 				F2916D851C0D542200078531 /* BeerMapViewController.swift in Sources */,
 				F2916D831C0D53C500078531 /* AddABeerViewController.swift in Sources */,
 				F2916D7D1C0D3EBD00078531 /* Beer+CoreDataProperties.swift in Sources */,
@@ -463,10 +468,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BeerLogger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.BeerLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -474,10 +482,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BeerLogger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.BeerLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
