@@ -16,6 +16,7 @@
 		BBCA83EF1BE7E6C600A20377 /* BeerLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83EE1BE7E6C600A20377 /* BeerLoggerTests.swift */; };
 		BBCA83FA1BE7E6C600A20377 /* BeerLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA83F91BE7E6C600A20377 /* BeerLoggerUITests.swift */; };
 		BBCC4CF81C13C664007B9BDD /* AddABeerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC4CF71C13C664007B9BDD /* AddABeerProfileViewController.swift */; };
+		F24B60231C1647B9005511A9 /* BeerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B60221C1647B9005511A9 /* BeerProfileViewController.swift */; };
 		F2916D671C0D3A3700078531 /* Beer-Logger .png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D661C0D3A3700078531 /* Beer-Logger .png */; };
 		F2916D711C0D3B6100078531 /* Beer-Logger29.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D681C0D3B6100078531 /* Beer-Logger29.png */; };
 		F2916D721C0D3B6100078531 /* Beer-Logger40.png in Resources */ = {isa = PBXBuildFile; fileRef = F2916D691C0D3B6100078531 /* Beer-Logger40.png */; };
@@ -66,6 +67,7 @@
 		BBCA83F91BE7E6C600A20377 /* BeerLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerLoggerUITests.swift; sourceTree = "<group>"; };
 		BBCA83FB1BE7E6C600A20377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBCC4CF71C13C664007B9BDD /* AddABeerProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddABeerProfileViewController.swift; sourceTree = "<group>"; };
+		F24B60221C1647B9005511A9 /* BeerProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeerProfileViewController.swift; path = BeerLogger/BeerProfileViewController.swift; sourceTree = "<group>"; };
 		F2916D661C0D3A3700078531 /* Beer-Logger .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger .png"; sourceTree = "<group>"; };
 		F2916D681C0D3B6100078531 /* Beer-Logger29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger29.png"; sourceTree = "<group>"; };
 		F2916D691C0D3B6100078531 /* Beer-Logger40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-Logger40.png"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				F2916D821C0D53C500078531 /* AddABeerViewController.swift */,
 				F2916D801C0D522C00078531 /* MyBeersViewController.swift */,
 				F2916D7C1C0D3EBD00078531 /* Beer+CoreDataProperties.swift */,
+				F24B60221C1647B9005511A9 /* BeerProfileViewController.swift */,
 				F2916D7A1C0D3E7C00078531 /* beer.swift */,
 				BBCA83D51BE7E6C500A20377 /* BeerLogger */,
 				BBCA83ED1BE7E6C600A20377 /* BeerLoggerTests */,
@@ -322,6 +325,7 @@
 				BBCC4CF81C13C664007B9BDD /* AddABeerProfileViewController.swift in Sources */,
 				F2916D851C0D542200078531 /* BeerMapViewController.swift in Sources */,
 				F2916D831C0D53C500078531 /* AddABeerViewController.swift in Sources */,
+				F24B60231C1647B9005511A9 /* BeerProfileViewController.swift in Sources */,
 				F2916D7D1C0D3EBD00078531 /* Beer+CoreDataProperties.swift in Sources */,
 				BBCA83D91BE7E6C600A20377 /* ViewController.swift in Sources */,
 				BBCA83DF1BE7E6C600A20377 /* BeerLogger.xcdatamodeld in Sources */,

@@ -7,26 +7,133 @@
 //
 
 import UIKit
+import MobileCoreServices
 
-class AddABeerViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+class AddABeerViewController: UIViewController, UIImagePickerControllerDelegate,UIPopoverControllerDelegate,UINavigationControllerDelegate {
     
-     @IBOutlet var imageView: UIImageView!
+    var picker:UIImagePickerController?=UIImagePickerController()
     
-  //  var imagePicker: UIImagePickerController!
-     let imagePicker = UIImagePickerController()
+    
+    
+    @IBOutlet weak var imageView: UIImageView!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        picker?.delegate=self
+        
+    }
+    
+    
+   
+    
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+    }
+    
+  
+
+    @IBAction func openGallery(sender: AnyObject) {
+        
+        openGallery()
+    }
+    
+    
+    @IBAction func takePhoto(sender: AnyObject) {
+        openCamera()
+    }
+    
+    
+    func openGallery()
+    {
+        picker!.allowsEditing = false
+        picker!.sourceType = UIImagePickerControllerSourceType.PhotoLibrary
+        presentViewController(picker!, animated: true, completion: nil)
+    }
+    
+    
+    func openCamera()
+    {
+        if(UIImagePickerController .isSourceTypeAvailable(UIImagePickerControllerSourceType.Camera)){
+            picker!.allowsEditing = false
+            picker!.sourceType = UIImagePickerControllerSourceType.Camera
+            picker!.cameraCaptureMode = .Photo
+            presentViewController(picker!, animated: true, completion: nil)
+        }else{
+            let alert = UIAlertController(title: "Camera Not Found", message: "This device has no Camera", preferredStyle: .Alert)
+            let ok = UIAlertAction(title: "OK", style:.Default, handler: nil)
+            alert.addAction(ok)
+            presentViewController(alert, animated: true, completion: nil)
+        }
+    }
+    
+    
+    func imagePickerControllerDidCancel(picker: UIImagePickerController) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+        
+        let chosenImage = info[UIImagePickerControllerOriginalImage] as! UIImage
+        imageView.contentMode = .ScaleAspectFit
+        imageView.image = chosenImage
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+}
+
+
+
+
+
+
+
+
+
+/*class AddABeerViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    
+    
+    @IBOutlet var imageView: UIImageView!
+    
+    
+   //var imagePicker: UIImagePickerController!
+    // let imagePicker = UIImagePickerController()
+    var imagePicker:UIImagePickerController?=UIImagePickerController()
+    
+    
+    
     
     @IBAction func takePhoto(sender: UIButton) {
-        // imagePicker =  UIImagePickerController()
-        imagePicker.delegate = self
-        imagePicker.sourceType = .Camera
+        imagePicker =  UIImagePickerController()
+        imagePicker!.delegate = self
+        imagePicker!.sourceType = .Camera
         
-        presentViewController(imagePicker, animated: true, completion: nil)
+        presentViewController(imagePicker!, animated: true, completion: nil)
     }
+    
+    
+    
+    //open camera
+    func openCamera()
+    {
+        if(UIImagePickerController .isSourceTypeAvailable(UIImagePickerControllerSourceType.Camera)){
+            imagePicker!.allowsEditing = false
+            imagePicker!.sourceType = UIImagePickerControllerSourceType.Camera
+            imagePicker!.cameraCaptureMode = .Photo
+            presentViewController(imagePicker!, animated: true, completion: nil)
+        }else{
+            let alert = UIAlertController(title: "Camera Not Found", message: "This device has no Camera", preferredStyle: .Alert)
+            let ok = UIAlertAction(title: "OK", style:.Default, handler: nil)
+            alert.addAction(ok)
+            presentViewController(alert, animated: true, completion: nil)
+        }
+    }
+   
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imagePicker.delegate = self
+        imagePicker!.delegate = self
         // Do any additional setup after loading the view.
     }
     
@@ -39,15 +146,32 @@ class AddABeerViewController: UIViewController, UIImagePickerControllerDelegate,
     
   
     //MARK: Delegates
-    func imagePickerController(
+ /*   func imagePickerController(
         picker: UIImagePickerController,
         didFinishPickingMediaWithInfo info: [String : AnyObject])
     {
         
+    }*/
+    
+    
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+        imagePicker!.dismissViewControllerAnimated(true, completion: nil)
+        imageView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
     }
-    func imagePickerControllerDidCancel(picker: UIImagePickerController) {
+    
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    */
+//*************************************************
+    
+//    func imagePickerControllerDidCancel(picker: UIImagePickerController) {
         
-    }
+  //  }
     
     
     
@@ -86,10 +210,7 @@ class AddABeerViewController: UIViewController, UIImagePickerControllerDelegate,
 
   
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
     
 
     /*
@@ -102,4 +223,4 @@ class AddABeerViewController: UIViewController, UIImagePickerControllerDelegate,
     }
     */
 
-}
+//}
